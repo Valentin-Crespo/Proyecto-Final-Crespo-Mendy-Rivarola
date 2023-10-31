@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-color:#333;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    height: 100px;
+ }
+
+h1 {
+margin: 0;
+}
+nav {
+background-color: #444;
+text-align: center;
+padding: 10px;
+}
+nav a {
+ color: #fff;
+ text-decoration: none;
+ margin: 0 10px;
+}
+nav a:hover{
+background:#444;
+}
+.Logo {
+  height:272px;
+  width: 348px;
+  position: absolute;
+  top: -89px;
+  right: 0px;
+}
+.Huella {
+  height:300px;
+  width: 600px;
+  position: absolute;
+  top: -87px;
+  left: -156px;
+}
