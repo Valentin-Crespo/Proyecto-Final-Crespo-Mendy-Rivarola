@@ -49,9 +49,6 @@ background:#881e83;
     width: 100%;
     height: 450px;
 }
-.btn btn-primaru {
-  background-color: blueviolet;
-}
 
 .Usuario {
   width: 250px;
@@ -60,6 +57,51 @@ background:#881e83;
 
 .Mensaje {
   width: 300px;
+}
+
+.Productos {
+  text-align: center;
+  margin: 54px;
+}
+
+.ProductosP {
+  text-align: center;
+  margin: 54px;
+}
+.ProductosG {
+  text-align: center;
+  margin: 54px;
+}
+
+.productos2{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+
+.productos3{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.InfoProducto{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  position: absolute;
+  right: 16px;
+  top: 221px;
+}
+
+.Precio {
+  font-size: 30px;
+}
+.card-text {
+  font-size: 20px;
 }
 
 
