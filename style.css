@@ -47,9 +47,19 @@ background:#881e83;
 }
 .Imagenes {
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
 .btn-primaru {
   background-color: blueviolet;
 }
+.Usuario {
+  width: 250px;
+  text-wrap:stable
+}
+
+.Mensaje {
+  width: 300px;
+}
+
+
 
