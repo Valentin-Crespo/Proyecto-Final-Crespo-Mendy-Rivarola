@@ -49,9 +49,10 @@ background:#881e83;
     width: 100%;
     height: 450px;
 }
-.btn-primaru {
+.btn btn-primaru {
   background-color: blueviolet;
 }
+
 .Usuario {
   width: 250px;
   text-wrap:stable
