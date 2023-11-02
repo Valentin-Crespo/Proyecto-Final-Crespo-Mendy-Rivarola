@@ -50,13 +50,13 @@ background:#881e83;
     height: 450px;
 }
 
-.Usuario {
+.Nombre {
   width: 250px;
   text-wrap:stable
 }
 
 .Mensaje {
-  width: 300px;
+  width: 400px;
 }
 
 .Productos {
