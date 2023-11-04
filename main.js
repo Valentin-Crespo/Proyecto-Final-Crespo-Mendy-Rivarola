@@ -8,6 +8,6 @@ function validarFormulario() {
     } else {
       document.getElementById("resultado").innerHTML = "Formulario enviado " 
       console.log(nombre);
-      console.log(mesanje);
+      console.log(mensaje);
   }
 }
