@@ -156,5 +156,15 @@ footer {
   text-decoration: none;
 }
 
+.contacto{
+display: flex;  
+justify-content: flex-start;
+margin-top: 50px;
+margin-left: 200px;
 
 
+ 
+}
+.contacto>.consulta{
+ margin-left: 400px;
+}
