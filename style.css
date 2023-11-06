@@ -18,9 +18,11 @@ h1 {
 margin: 0;
 }
 h2 {
-  background-color: blueviolet
-  width: ;
+  background-color: blueviolet;
+  padding: 10px;
+  
 }
+
 nav {
 background-color: #881e83;
 text-align: center;
@@ -73,6 +75,13 @@ background:#881e83;
   text-align: center;
   margin: 54px;
 }
+
+.productos3{
+  display: flex;
+  justify-content: space-around;
+  margin: 54px;
+}
+
 .ProductosG {
   text-align: center;
   margin: 54px;
@@ -81,15 +90,31 @@ background:#881e83;
 .productos2{
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  margin: 54px;
 }
 
-
-.productos3{
+.productosZ {
+  text-align: center;
+  margin: 54px;
+}
+.productos4 {
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  margin: 53px;
 }
+
+.productosR {
+  text-align: center;
+  margin: 54px;
+}
+
+.productos5 {
+  display: flex;
+  justify-content: space-around;
+  margin: 53px;
+}
+
+
 
 .InfoProducto{
   display: flex;
@@ -100,6 +125,7 @@ background:#881e83;
   position: absolute;
   right: 16px;
   top: 221px;
+ 
 }
 
 .Precio {
