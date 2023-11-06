@@ -17,6 +17,10 @@ header {
 h1 {
 margin: 0;
 }
+h2 {
+  background-color: blueviolet
+  width: ;
+}
 nav {
 background-color: #881e83;
 text-align: center;
@@ -120,5 +124,4 @@ background:#881e83;
 
 .whatsapp-icon {
   margin-top:13px;}
-
 
