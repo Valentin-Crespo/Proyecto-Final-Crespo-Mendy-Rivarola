@@ -17,11 +17,6 @@ header {
 h1 {
 margin: 0;
 }
-h2 {
-  background-color: blueviolet;
-  padding: 10px;
-  
-}
 
 nav {
 background-color: #881e83;
@@ -93,7 +88,7 @@ background:#881e83;
   margin: 54px;
 }
 
-.productosZ {
+.ProductosZ {
   text-align: center;
   margin: 54px;
 }
@@ -124,13 +119,22 @@ background:#881e83;
 .btn {
   position: absolute;
   right: 16px;
-  top: 221px;
- 
+  top: 275px;
+ }
+
+ .card{
+  border: 1px grey solid;
+  padding: 10px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 
 .Precio {
-  font-size: 30px;
+  font-size: 35px;
 }
+
+
 .card-text {
   font-size: 20px;
 }
@@ -150,4 +154,63 @@ background:#881e83;
 
 .whatsapp-icon {
   margin-top:13px;}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.redes-sociales a:hover {
+  color: #00f; /* Cambia el color al pasar el mouse sobre los íconos */
+}
+
+.Form {
+ font: bold;
+}
+
+.borde{
+  border-right: 10px solid #881e83;
+}
+
+.Resumen {
+  max-width: 120px;
+  text-align: center;
+}
+.take-away {
+  width: 200px;
+  height: 200px; 
+  display: flex;
+}
+
+.delivery {
+  width: 200px;
+  height: 200px;
+  display: flex;
+ }
+ .Entrega {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+ .Nosotros {
+
+  font-size: 20px;
+ }
 
