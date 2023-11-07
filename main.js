@@ -14,11 +14,26 @@ function validarFormulario() {
     if (nombre === "" || entrega === "" || dni === "" || domicilio === "" || producto === "") {
       document.getElementById("resultado").innerHTML = "Por favor, complete todos los campos.";
     } else {
-      document.getElementById("resultado").innerHTML = "Formulario enviado " 
+      document.getElementById("resultado").innerHTML = "Formulario enviado"; 
       console.log(nombre);
       console.log(entrega);
-      console.log(dni)
-      console.log(domicilio)
+      console.log(dni);
+      console.log(domicilio);
   }
     
+}
+function EnviarConsulta() {
+  let usuario = document.getElementById("usuario").value;
+  let mensaje = document.getElementById("mensaje").value;
+
+
+
+  if (usuario === "" || mensaje === "") {
+    document.getElementById("enviado").innerHTML = "Por favor, complete todos los campos.";
+  } else {
+    document.getElementById("enviado").innerHTML = "Consulta Enviada"; 
+    console.log(usuario);
+    console.log(mensaje);
+  
+  }
 }
