@@ -164,7 +164,19 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+}
+.Centro {
   text-align: center;
+  
+}
+.Izq {
+  text-align: left;
+}
+.Der {
+  text-align: left;
+}
+.material-icons {
+  position: absolute;
 }
 
 .redes-sociales a {

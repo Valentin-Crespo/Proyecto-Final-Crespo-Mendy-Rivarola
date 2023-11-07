@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="shortcut icon" href="./Imgs/pngwing.com.png"><!--Icono-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -164,8 +165,8 @@
         <form id="miFormulario">
           <label for="nombre">Nombre y Apellido:</label>
           <input type="text" id="nombre" name="nombre" class="Nombre"><br><br>
-          <label for="Edad">Edad:</label>
-          <input type="number" id="edad" name="edad" class="Edad"><br><br>
+          <label for="tipo-de-entrega">Tipo de entrega:</label>
+          <input type="text" id="entrega" name="entrega" class="entrega"><br><br>
           <label for="DNI">DNI:</label>
           <input type="text" id="dni" name="dni" class="DNI"><br><br>
           <label for="Domicilio">Domicilio:</label>
@@ -180,7 +181,7 @@
           <br>
           <p id="nombrei" class="Form"></p>
           <br>
-          <p id="edadi" class="Form"></p>
+          <p id="entregai" class="Form"></p>
           <br>
           <p id="dnii" class="Form"></p>
           <br>
@@ -214,6 +215,14 @@
       <br>
       
       <footer> 
+        <div class="row align-items-start">
+        <div class="col Izq">
+         <h4>Donde encontrarnos </h4>
+         <p>Aqui la ubicación: <a href="https://maps.app.goo.gl/nLuqGGSeqRcvy1CN7" target="_blank"><i class="material-icons" style="font-size:27px;color:red">place</i></a></p>
+          <p>Roca 3365, Villa Ballester, Provincia de Buenos Aires</p>
+          
+       </div>
+        <div class="col Centro">
         <div class="redes-sociales">
           <p>Petshop</p>
           
@@ -223,6 +232,17 @@
       </div>
       <br>
       <p>Contacto: lautarorivarola2@gmail.com</p> 
+    </div>
+    <div class="col Der">
+      <h4>Otros Servicios</h4>
+      <ul>
+        <li>Veterinaria</li>
+        <li>Sistema de adopción</li>
+        <li>Guarderia para mascotas</li>
+      </ul>
+    </div>
+  </div>
+   
     </footer>
     <script src="./main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
