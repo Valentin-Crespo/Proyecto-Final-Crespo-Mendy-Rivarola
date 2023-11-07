@@ -19,6 +19,7 @@ function validarFormulario() {
       console.log(entrega);
       console.log(dni);
       console.log(domicilio);
+      console.log(producto);
   }
     
 }
