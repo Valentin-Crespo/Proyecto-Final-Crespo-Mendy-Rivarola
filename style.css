@@ -56,7 +56,7 @@ background:#881e83;
   text-wrap:stable
 }
 
-.Mensaje {
+.mensaje {
   width: 400px;
   height: 50px;
 }
@@ -202,6 +202,7 @@ footer {
 .Resumen {
   max-width: 120px;
   text-align: center;
+  font-weight: bold;
 }
 .take-away {
   width: 200px;
