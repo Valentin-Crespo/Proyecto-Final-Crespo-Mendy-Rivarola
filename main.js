@@ -3,13 +3,15 @@ function validarFormulario() {
     let entrega = document.getElementById("entrega").value;
     let dni = document.getElementById("dni").value;
     let domicilio = document.getElementById("domicilio").value;
+    let producto = document.getElementById("producto").value;
     
     document.getElementById("nombrei").innerHTML =nombre;
     document.getElementById("entregai").innerHTML = entrega;
     document.getElementById("dnii").innerHTML = dni;
     document.getElementById("domicilioi").innerHTML = domicilio;
+    document.getElementById("productoi").innerHTML = producto;
 
-    if (nombre === "" || entrega === "" || dni === "" || domicilio === "") {
+    if (nombre === "" || entrega === "" || dni === "" || domicilio === "" || producto === "") {
       document.getElementById("resultado").innerHTML = "Por favor, complete todos los campos.";
     } else {
       document.getElementById("resultado").innerHTML = "Formulario enviado " 
